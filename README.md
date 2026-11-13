@@ -10,7 +10,7 @@ A responsive, static portfolio website built with HTML, CSS and JavaScript. It h
 - Expands project summaries and clearly distinguishes public repository links from work that does not yet have a dedicated public repository.
 - Improves mobile navigation, including Escape-key handling and focus visibility.
 - Adds social preview metadata, semantic landmarks, skip navigation and reduced-motion support.
-- Keeps contact details private: the page links to the public GitHub profile rather than publishing an unconfirmed email address.
+- Includes a direct email contact button using the address explicitly approved for publication: donagh.thebard@gmail.com.
 
 ## Files
 
@@ -47,7 +47,7 @@ If you use a custom domain, configure it in **Settings → Pages → Custom doma
 - Review all employment dates and descriptions against your records.
 - Check that the CV is the version you want employers to download.
 - Check that each public repository is ready for recruiters to inspect.
-- If you want a direct email link, replace the GitHub contact link in `index.html` with an email address you explicitly want to publish. Do not publish private contact information unintentionally.
+- The contact section includes a `mailto:` button and visible email address. The published address is `donagh.thebard@gmail.com`; change both mail links in `index.html` if you ever want to use a different address.
 
 ## Accessibility and testing
 
